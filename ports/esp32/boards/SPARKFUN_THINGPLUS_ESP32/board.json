@@ -1,0 +1,22 @@
+{
+    "deploy": [
+        "../deploy.md"
+    ],
+    "deploy_options": {
+        "flash_offset": "0x1000"
+    },
+    "docs": "",
+    "features": [
+        "BLE",
+        "External Flash",
+        "WiFi"
+    ],
+    "images": [
+        "15663-SparkFun_Thing_Plus_-_ESP32_WROOM.jpg"
+    ],
+    "mcu": "esp32",
+    "product": "ESP32 / WROOM",
+    "thumbnail": "",
+    "url": "https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-micro-b.html",
+    "vendor": "Sparkfun"
+}

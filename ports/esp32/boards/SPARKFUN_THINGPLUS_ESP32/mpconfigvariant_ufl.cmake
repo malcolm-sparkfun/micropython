@@ -1,0 +1,3 @@
+list(APPEND MICROPY_DEF_BOARD
+    MICROPY_HW_BOARD_NAME="SparkFun Thing Plus ESP32 (U.FL)"
+)

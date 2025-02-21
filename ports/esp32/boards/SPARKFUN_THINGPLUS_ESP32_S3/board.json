@@ -1,0 +1,23 @@
+{
+    "deploy": [
+        "../deploy.md"
+    ],
+    "deploy_options": {
+        "flash_offset": "0x1000"
+    },
+    "docs": "",
+    "features": [
+        "BLE",
+        "External Flash",
+        "WiFi",
+        "USB-C"
+    ],
+    "images": [
+        "24408-Sparkfun_Thing_Plus_-_ESP32-S3.jpg"
+    ],
+    "mcu": "esp32s3",
+    "product": "ESP32 / WROOM",
+    "thumbnail": "",
+    "url": "https://www.sparkfun.com/sparkfun-thing-plus-esp32-s3.html",
+    "vendor": "Sparkfun"
+}
