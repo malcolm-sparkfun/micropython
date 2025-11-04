@@ -127,6 +127,7 @@ SRC_HAL_IMX_C += \
 	$(MCU_DIR)/drivers/fsl_clock.c \
 	$(MCUX_SDK_DIR)/drivers/common/fsl_common.c \
 	$(MCUX_SDK_DIR)/drivers/common/fsl_common_arm.c \
+	$(MCUX_SDK_DIR)/drivers/csi/fsl_csi.c \
 	$(MCUX_SDK_DIR)/drivers/dmamux/fsl_dmamux.c \
 	$(MCUX_SDK_DIR)/drivers/edma/fsl_edma.c \
 	$(MCUX_SDK_DIR)/drivers/flexram/fsl_flexram.c \
@@ -155,6 +156,7 @@ INC_HAL_IMX += \
 	-I$(TOP)/$(MCU_DIR) \
 	-I$(TOP)/$(MCU_DIR)/drivers \
 	-I$(TOP)/$(MCUX_SDK_DIR)/drivers/common \
+	-I$(TOP)/$(MCUX_SDK_DIR)/drivers/csi \
 	-I$(TOP)/$(MCUX_SDK_DIR)/drivers/dmamux \
 	-I$(TOP)/$(MCUX_SDK_DIR)/drivers/edma \
 	-I$(TOP)/$(MCUX_SDK_DIR)/drivers/flexram \
@@ -256,6 +258,7 @@ SRC_C += \
 	machine_spi.c \
 	main.c \
 	mbedtls/mbedtls_port.c \
+	mimxrt_csi.c \
 	mimxrt_flash.c \
 	mimxrt_sdram.c \
 	modmimxrt.c \

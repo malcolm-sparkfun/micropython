@@ -31,6 +31,7 @@
 static const mp_rom_map_elem_t mimxrt_module_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR___name__),            MP_ROM_QSTR(MP_QSTR_mimxrt) },
     { MP_ROM_QSTR(MP_QSTR_Flash),               MP_ROM_PTR(&mimxrt_flash_type) },
+    { MP_ROM_QSTR(MP_QSTR_CSI),                 MP_ROM_PTR(&mimxrt_csi_type) },
     #if MICROPY_HW_USB_MSC
     { MP_ROM_QSTR(MP_QSTR_MSC),                 MP_ROM_TRUE },
     #endif

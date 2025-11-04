@@ -78,6 +78,9 @@ int main(void) {
 
     systick_enable_dispatch(SYSTICK_DISPATCH_LWIP, mod_network_lwip_poll_wrapper);
     #endif
+    
+    mimxrt_csi_init();
+    
     #if MICROPY_PY_BLUETOOTH
     mp_bluetooth_hci_init();
     #endif
@@ -164,6 +167,7 @@ int main(void) {
         #if MICROPY_PY_MACHINE_I2S
         machine_i2s_deinit_all();
         #endif
+        mimxrt_csi_deinit();
         #if MICROPY_PY_BLUETOOTH
         mp_bluetooth_deinit();
         #endif
